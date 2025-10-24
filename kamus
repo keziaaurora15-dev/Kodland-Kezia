@@ -1,0 +1,14 @@
+meme_dict = {
+            "CRINGE": "something that is very weird or embarassing",
+            "LOL": "a common respons towards something funny",
+            "ROFL": "a respons towards a joke",
+            "SHEESH": "used to express disbelief or exasperation",
+            "CREEPY": "something scary/not funny",
+            "AGGRO": "to be aggresive/mad"
+            }
+for i in range(5):
+    word = input("Type a word that you don't understand yet (use all caps!): ")
+    if word in meme_dict.keys():
+        print("the meme word '", word, "' means ",meme_dict[word],".")
+    else:
+        print("sorry that word isn't in this dictionary")
